@@ -2,7 +2,7 @@ import { useSession } from "next-auth/react";
 import React, { useEffect, useState } from "react";
 import { AiOutlineDown } from "react-icons/ai";
 import { BsArrow90DegDown, BsArrowDown } from "react-icons/bs";
-import { SlArrowDown } from "react-icons/Sl";
+import { SlArrowDown } from "react-icons/sl";
 import { shuffle } from "lodash";
 import { useRecoilState, useRecoilValue } from "recoil";
 import { playlistIdState, playlistState } from "../atoms/playlistAtom";
