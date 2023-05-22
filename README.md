@@ -1,22 +1,42 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Getting Started with Spotify Clone
 
-First, run the development server:
+Introducing Spotify Clone 
 
+Spotify Clone is .....
+
+## Tech Stack Used
+
+Nextjs 12 (Back-end and routing)
+React (Front-end)
+Debounce (Prevent spamming)
+Middleware (Checks all the requests if you authenticated)
+Tailwind CSS (Styling)
+Spotify API (Fetch playlists, songs, etc)
+oAuth JWT (Access/refresh tokens)
+NextAuth (Spotify Auth)
+Recoil (State management)
+ReactIcons (Icons)
+lodash (Utility functions)
+Custom hook (Spotify Hook)
+
+##  Installation Steps
+
+Clone the repository
+Install dependencies
+Create .env file in root and add your variables
 ```bash
-npm run dev
-# or
-yarn dev
+NEXTAUTH_URL=ADD http://localhost:3000 for LOCAL OR YOUR URL
+NEXT_PUBLIC_CLIENT_SECRET=FROM SPOTIFY DASHBOARD
+NEXT_PUBLIC_CLIENT_ID=FROM SPOTIFY DASHBOARD
+JWT_SECRET=ANY SECRET VALUE
 ```
-
+Run the app
+```bash 
+npm start
+```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 ## Learn More
 
