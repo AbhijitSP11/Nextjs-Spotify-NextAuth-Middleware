@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineHome, AiOutlineSearch, AiOutlineHeart } from "react-icons/ai";
 import { VscLibrary } from "react-icons/vsc";
-import { SlFeed } from "react-icons/Sl";
+import { SlFeed } from "react-icons/sl";
 import { BsCollectionPlay } from "react-icons/bs";
 import { signOut, useSession } from "next-auth/react";
 import useSpotify from "../hooks/useSpotify";
